@@ -1,4 +1,4 @@
 home:
-  heading: "Your awesome heading"
-  subheading: "Your awesome subheading"
+  heading: "Hello, World"
+  subheading: "layout에서 바꿔야 될 것 처럼 생겨놓고 넌 왜 data에서 변경이니 heading아"
   banner: "Your image url"
