@@ -2,12 +2,31 @@
 layout: about
 title: About
 ---
-
+<style>
+  article{
+    border-radius: 15px;
+    box-shadow: 0 4px 2px -4px black;
+  }
+  box{
+    flex: 1;
+    text-align: center;
+    padding: 20px 20px;
+  }
+  box h3{
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: #5C4B51;
+  }
+  box li{
+    text-align: left;
+    margin-bottom: 20px;
+  }
+</style>
 <h2>About</h2>
 
 <article style="display: flex; ">
   <div style="width: 70%">
-    <h1>Hello, World!</h1>!
+    <h1>Hello, World!</h1>
     <p>
       어디서든 1인분할 수 있는 전문가가 되고싶습니다.
     </p>
@@ -17,5 +36,40 @@ title: About
   </div>
   <div>
     <img src="/assets/images/about.jpg" width="230px" style="border-radius: 15px;margin: 20px"/>
+  </div>
+</article>
+
+<article>
+  <h2>Skills</h2>
+  <div style="display: flex; ">
+    <box>
+      <h3>&nbsp Language &nbsp</h3>
+      <ul>
+        <li>Java</li>
+      </ul>
+    </box>
+    <box>
+      <h3>&nbsp Front &nbsp</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </box>
+    <box>
+      <h3>&nbsp Server &nbsp</h3>
+      <ul>
+        <li>Spring</li>
+        <li>Spring boot</li>
+      </ul>
+    </box>
+    <box>
+      <h3>&nbsp DataBase &nbsp</h3>
+      <ul>
+        <li>MySQL</li>
+        <li>FireBase</li>
+        <li>Mongo DB</li>
+      </ul>
+    </box>
   </div>
 </article>
